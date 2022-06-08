@@ -1,0 +1,5 @@
+Backup Database Mysql Otomatis dengan Corn Job
+
+script melakukan backup otomatis setiap hari minggu jam 12 malam :
+
+0 0 * * 0 mysqldump -u adminklinik -p312010117 klinik_312010117 > klinik_db_backup.sql
